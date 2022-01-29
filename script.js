@@ -10,8 +10,11 @@ let containerPassword = document.querySelector('#container-password')
 let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#%*" 
 let novaSenha = ""
 
+// Deixando dinâmico o tamanho da senha de acordo com a barra
 sizePassword.innerHTML = sliderElement.value
 
 sliderElement.oninput = function(){
     sizePassword.innerHTML = this.value
 }
+
+// Função para gerar a senha
