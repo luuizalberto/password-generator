@@ -8,7 +8,23 @@
     <title>Gerador de Senha</title>
 </head>
 <body>
-    <h1>ffff</h1>
+    
+    <img src="/img/logo.png" class="logo" alt="Gerador de senha logo">
+
+    <main class="container-input">
+        <span>Tamanho <span id="valor"></span> caracteres </span>
+        <input id="slider" class="slider" type="range" min="8" max="25" value="15">
+
+        <button id="button" class="button-cta">Gerar senha</button>
+    </main>
+
+    <div id="container-password" class="container-password hide">
+        <span class="title">Sua senha gerada foi:</span>
+        <span id="password" class="password">noj6n426o7onk757</span>
+        <span class="tooltip">Clique na senha para copiar. 👆</span>
+    </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
