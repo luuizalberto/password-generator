@@ -15,4 +15,4 @@ Criei outra função para clicar no botão e copiar a senha automaticamente.
 Ele vai copiar o valor da variavel 'novaSenha' que recebe os valores de 'pass'
 
 # Layout Web
-![image](https://github.com/luuizalberto/assets/blob/main/images/gerador de senha.png)
+![image](https://github.com/luuizalberto/assets/blob/main/images/gerador-de-senha.png)
