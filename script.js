@@ -27,5 +27,13 @@ function generatePassword(){
         pass += charset.charAt(Math.floor(Math.random() * n)) // charAt é a posição --- Math.floor é para gerar um inteiro e Math.ramdom para gerar um aleatório
     } 
 
-    console.log(pass)
+    containerPassword.classList.remove('hide')
+    password.innerHTML = pass
+    novaSenha = pass
+}
+
+// Funcão de clicar e copiar e senha
+function copyPassword(){
+    alert('Senha copiada com sucesso!')
+    navigator.clipboard.writeText(novaSenha) // ele vai copiar o que estiver dentro dessa variável.
 }
